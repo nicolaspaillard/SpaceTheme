@@ -4,12 +4,10 @@
 @import url("radiogroup.css");
 @import url("range.css");
 
-
-
 /*
 & Ban piracy plugins
 */
-[class*="luatools" i] body>div,
+/* [class*="luatools" i] body>div,
 [data-millennium-plugin*="luatools" i] body>div,
 [data-manilua-button],
 [data-manilua-modal],
@@ -35,4 +33,4 @@
     text-align: center;
     transform: translate(-50%, -50%) !important;
     color: #fff !important;
-}
+} */

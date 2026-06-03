@@ -2,12 +2,10 @@
 @import url("./friends/groupChat.css");
 @import url("./friends/list.css");
 
-
-
 /*
 & Ban piracy plugins
 */
-[class*="luatools" i] body>div,
+/* [class*="luatools" i] body>div,
 [data-millennium-plugin*="luatools" i] body>div,
 [data-manilua-button],
 [data-manilua-modal],
@@ -33,32 +31,28 @@
     text-align: center;
     transform: translate(-50%, -50%) !important;
     color: #fff !important;
-}
-
-
+} */
 
 .singleWindowFocusBar {
-    mask: unset;
-    -webkit-mask: unset;
-    background: unset;
+  mask: unset;
+  -webkit-mask: unset;
+  background: unset;
 }
-
 
 .TitleBar {
-    top: -32px;
-    width: calc(100% + 32px);
-    margin-left: -16px;
+  top: -32px;
+  width: calc(100% + 32px);
+  margin-left: -16px;
 }
 .LegacyPopup .TitleBar {
-    top: 0;
-    width: 100%;
-    margin-left: 0;
+  top: 0;
+  width: 100%;
+  margin-left: 0;
 }
-
 
 .friendsListContainer,
 .multiChatDialog {
-    overflow: unset !important;
-    height: calc(100% - 48px);
-    margin: 32px 16px 16px;
+  overflow: unset !important;
+  height: calc(100% - 48px);
+  margin: 32px 16px 16px;
 }
