@@ -118,7 +118,7 @@
 <details>
   <summary>Friends & Chat</summary>
 
-  - [ ] Compact mode support
+  - [x] Compact mode support
   - [ ] Chat
   - [ ] Group chat
 </details>
@@ -159,5 +159,5 @@
   - [ ] Game server window
   - [ ] Players window
   - [ ] Add non-steam game window
-  - [ ] About Steam window
+  - [x] About Steam window
 </details>
