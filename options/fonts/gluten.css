@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
-* {
-  font-family: 'Gluten', sans-serif !important;
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap");
+*:not([class*="fa-"]) {
+  font-family: "Gluten", sans-serif !important;
 }
