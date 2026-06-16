@@ -153,9 +153,19 @@
 
   - [ ] (WIP) Notifications
   - [ ] (WIP) Steam Settings
-  - [ ] (WIP) Inputs (all types)
+  - [ ] (WIP) Inputs
+    - [ ] (WIP) Button
+    - [ ] Dropdown
+    - [ ] Search
+    - [ ] (WIP) Color
+    - [x] Emoji picker
+    - [ ] Checkbox
+      - [x] Checkbox Switch
+    - [ ] (WIP) Radio
+    - [x] Radiogroup
+    - [ ] (WIP) Range
   - [ ] Recordings & Screenshots
-  - [ ] Update News
+  - [x] Special Offers
   - [ ] Game server window
   - [ ] Players window
   - [ ] Add non-steam game window

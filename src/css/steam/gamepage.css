@@ -8,9 +8,6 @@
     background-image: none;
     background-color: rgb(var(--st-color-1));
 }
-:has(.NZMJ6g2iVnFsOOp-lDmIP._1ZNHIcPSbQl11wXtomcqgH) ._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
-    padding: 16px;
-}
 
 ._2OOzYVWIHaKXm6_7sscT9i ._1Qa-Aq8WFiF9584yU_1xuC {
     display: none;
@@ -1120,7 +1117,7 @@
 .A6G1leLXs7Vqw45hoXg-l ._1Q2q_tQ9_Eq8YdEHNAHS3F._3jY6xWI4URhFyYsanh9VKL {
     margin: 0;
     padding: 12px;
-    border-radius: 8var(--st-border-radius);
+    border-radius: var(--st-border-radius);
     background: none;
     background-color: rgb(var(--st-color-2));
 }
