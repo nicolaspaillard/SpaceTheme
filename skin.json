@@ -24,6 +24,9 @@
             "affects": [".*"],
             "src": "options/general/windowControls/showOnHover.css"
           }
+        },
+        "Hide": {
+          "TargetCss": { "affects": [".*"], "src": "options/general/windowControls/hide.css" }
         }
       }
     },
@@ -35,13 +38,11 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/general/navigationButtons.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/general/navigationButtons.css" }
         }
       }
     },
+
     "Always show sidebar": {
       "description": "Always show the sidebar don't matter on which page \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
       "default": "yes",
@@ -50,10 +51,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/general/alwaysShowSidebar.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/general/alwaysShowSidebar.css" }
         }
       }
     },
@@ -65,10 +63,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/general/sidebarOnRight.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/general/sidebarOnRight.css" }
         }
       }
     },
@@ -80,10 +75,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/general/showSidebarOnHover.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/general/showSidebarOnHover.css" }
         }
       }
     },
@@ -120,10 +112,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/general/friendIcon.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/general/friendIcon.css" }
         }
       }
     },
@@ -142,6 +131,7 @@
         }
       }
     },
+
     "Wallet balance": {
       "description": "Hide wallet balance",
       "default": "no",
@@ -150,10 +140,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/general/walletBalance.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/general/walletBalance.css" }
         }
       }
     },
@@ -247,6 +234,7 @@
         }
       }
     },
+
     "Font": {
       "description": "Use a different font for the SteamUI",
       "default": "Be Vietnam Pro (default)",
@@ -254,58 +242,31 @@
       "section": "Other",
       "values": {
         "Be Vietnam Pro (default)": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/beVietnamPro.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/beVietnamPro.css" }
         },
         "Arial": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/arial.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/arial.css" }
         },
         "Gluten": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/gluten.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/gluten.css" }
         },
         "Montserrat": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/montserrat.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/montserrat.css" }
         },
         "Google Sans": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/googleSans.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/googleSans.css" }
         },
         "Quicksand": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/quicksand.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/quicksand.css" }
         },
         "Roboto": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/roboto.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/roboto.css" }
         },
         "Source Code Pro": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/sourceCodePro.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/sourceCodePro.css" }
         },
         "Ubuntu": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/fonts/ubuntu.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/fonts/ubuntu.css" }
         }
       }
     },
@@ -330,10 +291,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/general/systemAccent.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/general/systemAccent.css" }
         }
       }
     },
@@ -345,10 +303,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/general/hideScrollbars.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/general/hideScrollbars.css" }
         }
       }
     },
@@ -360,10 +315,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "src/css/plugins/dwmx.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "src/css/plugins/dwmx.css" }
         }
       }
     },
@@ -380,6 +332,7 @@
         "unit": "%"
       }
     },
+
     "Game Overlay": {
       "description": "Game Overlay from the concept",
       "default": "no",
@@ -393,6 +346,7 @@
         }
       }
     },
+
     "Max Width": {
       "description": "This changes the width of the store. \n[i]Please note that if your lower the width too much, some elements might look weird or be misplaced, the theme is designed for the default width of 1200px.[/i]",
       "default": 1200,
@@ -406,6 +360,7 @@
         "unit": "px"
       }
     },
+
     "Tabs Section": {
       "description": "Show more games in the \"Popular New Releases/Top Sellers/Popular Upcoming/...\" tabs section",
       "default": "no",
@@ -436,6 +391,7 @@
         }
       }
     },
+
     "Broadcast": {
       "description": "Hide broadcasts on the store gamepage",
       "default": "no",
@@ -481,6 +437,7 @@
         }
       }
     },
+
     "Recommendations": {
       "description": "Hide recommendations in the cart",
       "default": "no",
@@ -526,6 +483,7 @@
         }
       }
     },
+
     "Landing Header": {
       "description": "Hide the landing header (this with the big coin)",
       "default": "no",
@@ -541,6 +499,7 @@
         }
       }
     },
+
     "URL bar": {
       "description": "Hide URL bar",
       "default": "no",
@@ -549,10 +508,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/store/urlBar.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/store/urlBar.css" }
         }
       }
     },
@@ -564,13 +520,11 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": [".*"],
-            "src": "options/store/footer.css"
-          }
+          "TargetCss": { "affects": [".*"], "src": "options/store/footer.css" }
         }
       }
     },
+
     "Steam-Custom-Artworks Support": {
       "description": "The best support for [url=https://spacetheme.net/#steam-custom-artworks]https://spacetheme.net/#steam-custom-artworks[/url]",
       "default": "no",
@@ -579,13 +533,11 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/library/customArtwork.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/library/customArtwork.css" }
         }
       }
     },
+
     "What's New": {
       "description": "Customize the What's New section",
       "default": "Compact",
@@ -600,10 +552,7 @@
           }
         },
         "Hide": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/library/home/whatsNew/hide.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/whatsNew/hide.css" }
         }
       }
     },
@@ -615,10 +564,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/library/home/addShelf.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/addShelf.css" }
         }
       }
     },
@@ -630,10 +576,7 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/library/home/shinyEffect.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/library/home/shinyEffect.css" }
         }
       }
     },
@@ -663,6 +606,7 @@
         "unit": "%"
       }
     },
+
     "Darken gamepage banner": {
       "description": "Darkens game banners when they are installed. 20% means darken 100% no darken \n[i]Default: 100%[/i]",
       "default": 100,
@@ -855,13 +799,11 @@
       "values": {
         "no": {},
         "yes": {
-          "TargetCss": {
-            "affects": ["^Steam$"],
-            "src": "options/library/gamepage/sidebarLeft.css"
-          }
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/library/gamepage/sidebarLeft.css" }
         }
       }
     },
+
     "Favorite friends status background": {
       "description": "When the \"Compact favorite friends area\" is on then the cards will show a status background so you know if the user is online/offline/ingame",
       "default": "yes",
@@ -892,6 +834,7 @@
         }
       }
     },
+
     "VAC-Ban visibility": {
       "description": "Hide the VAC ban from your profile or on all profiles",
       "default": "Show",
@@ -913,6 +856,7 @@
         }
       }
     },
+
     "Profile pages header": {
       "description": "Hide the profile pages header",
       "default": "no",
