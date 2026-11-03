@@ -25,379 +25,377 @@
             "src": "options/general/windowControls/showOnHover.css"
           }
         }
-      },
-      "Navigation buttons": {
-        "description": "Hide Navigation buttons",
-        "default": "no",
-        "tab": "General",
-        "section": "Titlebar",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/navigationButtons.css"
-            }
+      }
+    },
+    "Navigation buttons": {
+      "description": "Hide Navigation buttons",
+      "default": "no",
+      "tab": "General",
+      "section": "Titlebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/navigationButtons.css"
           }
         }
-      },
-
-      "Always show sidebar": {
-        "description": "Always show the sidebar don't matter on which page \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
-        "default": "yes",
-        "tab": "General",
-        "section": "Sidebar",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/alwaysShowSidebar.css"
-            }
+      }
+    },
+    "Always show sidebar": {
+      "description": "Always show the sidebar don't matter on which page \n[i]If you have this option disabled, the userpanel and download bar only show when you in library. I recommend to enable then the \"Sidebar only on hover\" option, to still have access to the userpanel and download bar in the store and community[/i]",
+      "default": "yes",
+      "tab": "General",
+      "section": "Sidebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/alwaysShowSidebar.css"
           }
         }
-      },
-      "Sidebar on right": {
-        "description": "Show the sidebar on the right side",
-        "default": "no",
-        "tab": "General",
-        "section": "Sidebar",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/sidebarOnRight.css"
-            }
+      }
+    },
+    "Sidebar on right": {
+      "description": "Show the sidebar on the right side",
+      "default": "no",
+      "tab": "General",
+      "section": "Sidebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/sidebarOnRight.css"
           }
         }
-      },
-      "Sidebar only on hover": {
-        "description": "Shows only the sidebar in the store on hover",
-        "default": "no",
-        "tab": "General",
-        "section": "Sidebar",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/showSidebarOnHover.css"
-            }
+      }
+    },
+    "Sidebar only on hover": {
+      "description": "Shows only the sidebar in the store on hover",
+      "default": "no",
+      "tab": "General",
+      "section": "Sidebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/showSidebarOnHover.css"
           }
         }
-      },
-      "Sidebar fixed width": {
-        "description": "This fixes the sidebar width",
-        "default": "no",
-        "tab": "General",
-        "section": "Sidebar",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fixedSidebar.css" }
+      }
+    },
+    "Sidebar fixed width": {
+      "description": "This fixes the sidebar width",
+      "default": "no",
+      "tab": "General",
+      "section": "Sidebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": { "affects": ["^Steam$"], "src": "options/general/fixedSidebar.css" }
+        }
+      }
+    },
+    "Sidebar width": {
+      "description": "The width of the fixed sidebar \n[i]Default: 256px[/i]",
+      "default": 256,
+      "tab": "General",
+      "section": "Sidebar",
+      "slider": {
+        "cssVariable": "--st-fixed-sidebar-width",
+        "min": 256,
+        "max": 1600,
+        "step": 1,
+        "unit": "px"
+      }
+    },
+    "Friend icon": {
+      "description": "Hide the friend icon from the game item",
+      "default": "no",
+      "tab": "General",
+      "section": "Sidebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/friendIcon.css"
           }
         }
-      },
-      "Sidebar width": {
-        "description": "The width of the fixed sidebar \n[i]Default: 256px[/i]",
-        "default": 256,
-        "tab": "General",
-        "section": "Sidebar",
-        "slider": {
-          "cssVariable": "--st-fixed-sidebar-width",
-          "min": 256,
-          "max": 1600,
-          "step": 1,
-          "unit": "px"
-        }
-      },
-      "Friend icon": {
-        "description": "Hide the friend icon from the game item",
-        "default": "no",
-        "tab": "General",
-        "section": "Sidebar",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/friendIcon.css"
-            }
-          }
-        }
-      },
-      "Always show download bar": {
-        "description": "Always show the download bar",
-        "default": "no",
-        "tab": "General",
-        "section": "Sidebar",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/alwaysShowDownloadbar.css"
-            }
-          }
-        }
-      },
-
-      "Wallet balance": {
-        "description": "Hide wallet balance",
-        "default": "no",
-        "tab": "General",
-        "section": "Userpanel",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/walletBalance.css"
-            }
-          }
-        }
-      },
-      "Steam VR button": {
-        "description": "Hide Steam VR button from userpanel",
-        "default": "no",
-        "tab": "General",
-        "section": "Userpanel",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/userpanel/buttons/steamVr.css"
-            }
-          }
-        }
-      },
-      "Big Picture Mode button": {
-        "description": "Hide Big Picture Mode button from userpanel",
-        "default": "no",
-        "tab": "General",
-        "section": "Userpanel",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/userpanel/buttons/bpm.css"
-            }
-          }
-        }
-      },
-      "News button": {
-        "description": "Hide News button from userpanel",
-        "default": "no",
-        "tab": "General",
-        "section": "Userpanel",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/userpanel/buttons/news.css"
-            }
-          }
-        }
-      },
-      "Notification button": {
-        "description": "Hide Notification button from userpanel",
-        "default": "no",
-        "tab": "General",
-        "section": "Userpanel",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/userpanel/buttons/notification.css"
-            }
-          }
-        }
-      },
-      "Friend list button": {
-        "description": "Hide Friend list button from userpanel",
-        "default": "no",
-        "tab": "General",
-        "section": "Userpanel",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/userpanel/buttons/friendList.css"
-            }
-          }
-        }
-      },
-      "Settings button": {
-        "description": "Hide Settings button from userpanel",
-        "default": "no",
-        "tab": "General",
-        "section": "Userpanel",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": ["^Steam$"],
-              "src": "options/general/userpanel/buttons/stSettings.css"
-            }
-          }
-        }
-      },
-
-      "Font": {
-        "description": "Use a different font for the SteamUI",
-        "default": "Be Vietnam Pro (default)",
-        "tab": "General",
-        "section": "Other",
-        "values": {
-          "Be Vietnam Pro (default)": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/beVietnamPro.css"
-            }
-          },
-          "Arial": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/arial.css"
-            }
-          },
-          "Gluten": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/gluten.css"
-            }
-          },
-          "Montserrat": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/montserrat.css"
-            }
-          },
-          "Google Sans": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/googleSans.css"
-            }
-          },
-          "Quicksand": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/quicksand.css"
-            }
-          },
-          "Roboto": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/roboto.css"
-            }
-          },
-          "Source Code Pro": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/sourceCodePro.css"
-            }
-          },
-          "Ubuntu": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/fonts/ubuntu.css"
-            }
-          }
-        }
-      },
-      "Border radius": {
-        "description": "This changes the border radius of all elements. \n[i]Default: 8px[/i]",
-        "default": 8,
-        "tab": "General",
-        "section": "Other",
-        "slider": {
-          "cssVariable": "--st-border-radius",
-          "min": 0,
-          "max": 16,
-          "step": 1,
-          "unit": "px"
-        }
-      },
-      "System accent colors": {
-        "description": "Replaces the SpaceTheme accent colors with your system accent colors \n[i]Only works on Windows[/i]",
-        "default": "no",
-        "tab": "General",
-        "section": "Other",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/general/systemAccent.css"
-            }
-          }
-        }
-      },
-      "Scrollbars": {
-        "description": "Hides the scrollbars in the SteamUI",
-        "default": "no",
-        "tab": "General",
-        "section": "Other",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "options/general/hideScrollbars.css"
-            }
-          }
-        }
-      },
-      "Mica & Acrylic plugin support": {
-        "description": "Support for Mica and Acrylic plugin [url=https://steambrew.app/plugin?id=b4c58634419b]https://steambrew.app/plugin?id=b4c58634419b[/url] \n[i]Only works with the standard theme colors[/i]",
-        "default": "no",
-        "tab": "General",
-        "section": "Other",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": {
-              "affects": [".*"],
-              "src": "src/css/plugins/dwmx.css"
-            }
-          }
-        }
-      },
-      "Mica Transparency": {
-        "description": "This changes the transparency of the Mica effect. \n[i]Default: 50%[/i]",
-        "default": 50,
-        "tab": "General",
-        "section": "Other",
-        "slider": {
-          "cssVariable": "--st-mica-transparency",
-          "min": 20,
-          "max": 100,
-          "step": 10,
-          "unit": "%"
-        }
-      },
-
-      "Game Overlay": {
-        "description": "Game Overlay from the concept",
-        "default": "no",
-        "tab": "General",
-        "section": "Experimental",
-        "values": {
-          "no": {},
-          "yes": {
-            "TargetCss": { "affects": ["^SP Overlay:"], "src": "src/css/overlay.custom.css" },
-            "TargetJs": { "affects": [".*"], "src": "src/js/overlay.js" }
+      }
+    },
+    "Always show download bar": {
+      "description": "Always show the download bar",
+      "default": "no",
+      "tab": "General",
+      "section": "Sidebar",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/alwaysShowDownloadbar.css"
           }
         }
       }
     },
 
+    "Wallet balance": {
+      "description": "Hide wallet balance",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/walletBalance.css"
+          }
+        }
+      }
+    },
+    "Steam VR button": {
+      "description": "Hide Steam VR button from userpanel",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/userpanel/buttons/steamVr.css"
+          }
+        }
+      }
+    },
+    "Big Picture Mode button": {
+      "description": "Hide Big Picture Mode button from userpanel",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/userpanel/buttons/bpm.css"
+          }
+        }
+      }
+    },
+    "News button": {
+      "description": "Hide News button from userpanel",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/userpanel/buttons/news.css"
+          }
+        }
+      }
+    },
+    "Notification button": {
+      "description": "Hide Notification button from userpanel",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/userpanel/buttons/notification.css"
+          }
+        }
+      }
+    },
+    "Friend list button": {
+      "description": "Hide Friend list button from userpanel",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/userpanel/buttons/friendList.css"
+          }
+        }
+      }
+    },
+    "Settings button": {
+      "description": "Hide Settings button from userpanel",
+      "default": "no",
+      "tab": "General",
+      "section": "Userpanel",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": ["^Steam$"],
+            "src": "options/general/userpanel/buttons/stSettings.css"
+          }
+        }
+      }
+    },
+
+    "Font": {
+      "description": "Use a different font for the SteamUI",
+      "default": "Be Vietnam Pro (default)",
+      "tab": "General",
+      "section": "Other",
+      "values": {
+        "Be Vietnam Pro (default)": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/beVietnamPro.css"
+          }
+        },
+        "Arial": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/arial.css"
+          }
+        },
+        "Gluten": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/gluten.css"
+          }
+        },
+        "Montserrat": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/montserrat.css"
+          }
+        },
+        "Google Sans": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/googleSans.css"
+          }
+        },
+        "Quicksand": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/quicksand.css"
+          }
+        },
+        "Roboto": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/roboto.css"
+          }
+        },
+        "Source Code Pro": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/sourceCodePro.css"
+          }
+        },
+        "Ubuntu": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/fonts/ubuntu.css"
+          }
+        }
+      }
+    },
+    "Border radius": {
+      "description": "This changes the border radius of all elements. \n[i]Default: 8px[/i]",
+      "default": 8,
+      "tab": "General",
+      "section": "Other",
+      "slider": {
+        "cssVariable": "--st-border-radius",
+        "min": 0,
+        "max": 16,
+        "step": 1,
+        "unit": "px"
+      }
+    },
+    "System accent colors": {
+      "description": "Replaces the SpaceTheme accent colors with your system accent colors \n[i]Only works on Windows[/i]",
+      "default": "no",
+      "tab": "General",
+      "section": "Other",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/general/systemAccent.css"
+          }
+        }
+      }
+    },
+    "Scrollbars": {
+      "description": "Hides the scrollbars in the SteamUI",
+      "default": "no",
+      "tab": "General",
+      "section": "Other",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "options/general/hideScrollbars.css"
+          }
+        }
+      }
+    },
+    "Mica & Acrylic plugin support": {
+      "description": "Support for Mica and Acrylic plugin [url=https://steambrew.app/plugin?id=b4c58634419b]https://steambrew.app/plugin?id=b4c58634419b[/url] \n[i]Only works with the standard theme colors[/i]",
+      "default": "no",
+      "tab": "General",
+      "section": "Other",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": {
+            "affects": [".*"],
+            "src": "src/css/plugins/dwmx.css"
+          }
+        }
+      }
+    },
+    "Mica Transparency": {
+      "description": "This changes the transparency of the Mica effect. \n[i]Default: 50%[/i]",
+      "default": 50,
+      "tab": "General",
+      "section": "Other",
+      "slider": {
+        "cssVariable": "--st-mica-transparency",
+        "min": 20,
+        "max": 100,
+        "step": 10,
+        "unit": "%"
+      }
+    },
+
+    "Game Overlay": {
+      "description": "Game Overlay from the concept",
+      "default": "no",
+      "tab": "General",
+      "section": "Experimental",
+      "values": {
+        "no": {},
+        "yes": {
+          "TargetCss": { "affects": ["^SP Overlay:"], "src": "src/css/overlay.custom.css" },
+          "TargetJs": { "affects": [".*"], "src": "src/js/overlay.js" }
+        }
+      }
+    },
     "Max Width": {
       "description": "This changes the width of the store. \n[i]Please note that if your lower the width too much, some elements might look weird or be misplaced, the theme is designed for the default width of 1200px.[/i]",
       "default": 1200,
